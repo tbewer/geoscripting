@@ -4,7 +4,7 @@
 
 library(raster)
 # Function to substract 2 rasterLayers
-minusRaster <- function(x, y, plot=FALSE) { 
+minusRaster <- function(x, y, plot=T) { 
   z <- x - y
   if (plot) {
     plot(z)
