@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>mylinesGE</name>
+  <Placemark>
+	<name>straight line</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <LineString><coordinates>5.6725,51.9883 5.674,51.9888</coordinates></LineString>
+  </Placemark>
+</Folder>
+</Document></kml>

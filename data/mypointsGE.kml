@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><Folder><name>mypointsGE</name>
+  <Placemark>
+	<name>Tom</name>
+	<ExtendedData><SchemaData schemaUrl="#mypointsGE">
+		<SimpleData name="id">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>5.6725,51.9883</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Efka</name>
+	<ExtendedData><SchemaData schemaUrl="#mypointsGE">
+		<SimpleData name="id">2</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>5.674,51.9888</coordinates></Point>
+  </Placemark>
+</Folder>
+<Schema name="mypointsGE" id="mypointsGE">
+	<SimpleField name="id" type="string"></SimpleField>
+</Schema>
+</Document></kml>
